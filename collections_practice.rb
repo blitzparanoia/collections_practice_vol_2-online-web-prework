@@ -75,5 +75,5 @@ def organize_schools(schools)
       organized_schools = name
     end
   end
-  organize_schools
+  organized_schools
 end
