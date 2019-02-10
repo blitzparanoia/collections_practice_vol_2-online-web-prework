@@ -68,5 +68,5 @@ def organize_schools(schools)
   organize_schools = {}
   schools.each do |name, location_hash|
     location = location_hash[:location]
-    
+    if organize_schools
 end
