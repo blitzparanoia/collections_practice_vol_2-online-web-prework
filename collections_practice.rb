@@ -72,5 +72,8 @@ def organize_schools(schools)
       organized_schools[location] << name
     else 
       organized_schools[location] = []
-      organized_schools
+      organized_schools = name
+    end
+  end
+  organize_schools
 end
